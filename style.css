@@ -1,0 +1,38 @@
+
+
+body {
+    background-color: #F8F4F4;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aa7854;
+}
+.menu-itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.menu-itens li {
+    margin-right: 40px;
+}
+
+.menu-itens a {
+    text-decoration: none;
+    color: rgb(233, 233, 240);
+    font-size: 1.2rem;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+}
+
+.menu-itens a:hover {
+    color: white;
+    cursor: pointer;
+}

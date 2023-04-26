@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="compra.js"></script>
+    <title>Document</title>
+</head>
+<header class="menu">
+    <img class="logo" src="./assets/img/logo.png" alt="">
+    <nav>
+        <ul class="menu-itens">
+            <li><a href="assets/produtos/produtos.html">PRODUTOS</a></li>
+            <!-- <li><a href="">Carrinho</a></li>
+            <li><a href="">Contato</a></li> -->
+        </ul>
+
+    </nav>
+</header>
+
+<body>
+    <h1>Compras - Comidas</h1>
+    <label for="produto">Digite produto</label>
+    <input type="text" id="produto">
+    <label for="qtde_produtos">&emsp;Digite a Quantidade dos produtos:</label>
+    <input type="text" id="qtde_produtos">
+    <label for="preco_produto">&emsp;Digite o Preço do produto:</label>
+    <input type="text" id="preco_produto">
+    <br>
+    <br>
+    <button id="parcial">Confirma compra</button>
+    <br>
+    <br>
+    <button id="total">Total da Venda</button>
+    <br>
+    <p id="vetor"></p>
+    <p id="valor_compra"></p>
+</body>
+</html>
